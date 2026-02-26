@@ -1,0 +1,21 @@
+[project]
+name = "winner-or-quitter"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Erik"}
+]
+requires-python = ">=3.11"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "ipykernel (>=7.2.0,<8.0.0)",
+    "notebook (>=7.5.4,<8.0.0)"
+]
