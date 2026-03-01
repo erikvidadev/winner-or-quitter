@@ -5,3 +5,4 @@ poetry.lock
 .ipynb_checkpoints/
 */.ipynb_checkpoints/*
 data
+.jupyter
